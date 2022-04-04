@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chartreuse;
+    animation: flicker 1.5s infinite alternate;    
+    background-image: url(tb.jpg); 
+    ;
+
+
+}
+#upper {
+    opacity: 0.8;
+}
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(255, 30, 0),
+        0 0 80px rgb(255, 30, 0),
+        0 0 90px #0fa,
+        0 0 100px rgb(38, 0, 255),
+        0 0 150px rgb(255, 0, 76);
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+
+  img {
+    border: 5px solid rgb(233, 8, 8);
+
+  }
+
+
+
+
+
+
